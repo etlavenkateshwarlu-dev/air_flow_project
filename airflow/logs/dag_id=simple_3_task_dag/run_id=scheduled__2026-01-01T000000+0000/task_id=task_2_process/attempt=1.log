@@ -1,0 +1,21 @@
+[2026-01-02T10:55:44.038+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-02T10:55:44.106+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_3_task_dag.task_2_process scheduled__2026-01-01T00:00:00+00:00 [queued]>
+[2026-01-02T10:55:44.131+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_3_task_dag.task_2_process scheduled__2026-01-01T00:00:00+00:00 [queued]>
+[2026-01-02T10:55:44.132+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-02T10:55:44.190+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): task_2_process> on 2026-01-01 00:00:00+00:00
+[2026-01-02T10:55:44.198+0000] {standard_task_runner.py:63} INFO - Started process 93 to run task
+[2026-01-02T10:55:44.203+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'simple_3_task_dag', 'task_2_process', 'scheduled__2026-01-01T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/irst_dag.py', '--cfg-path', '/tmp/tmp9xsm0i7r']
+[2026-01-02T10:55:44.207+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask task_2_process
+[2026-01-02T10:55:44.322+0000] {task_command.py:426} INFO - Running <TaskInstance: simple_3_task_dag.task_2_process scheduled__2026-01-01T00:00:00+00:00 [running]> on host 2606720bf4f4
+[2026-01-02T10:55:44.520+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='simple_3_task_dag' AIRFLOW_CTX_TASK_ID='task_2_process' AIRFLOW_CTX_EXECUTION_DATE='2026-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-01T00:00:00+00:00'
+[2026-01-02T10:55:44.521+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-02T10:55:44.539+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-02T10:55:44.541+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'Task 2: Processing'"]
+[2026-01-02T10:55:44.553+0000] {subprocess.py:86} INFO - Output:
+[2026-01-02T10:55:44.555+0000] {subprocess.py:93} INFO - Task 2: Processing
+[2026-01-02T10:55:44.556+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-02T10:55:44.557+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-02T10:55:44.620+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=simple_3_task_dag, task_id=task_2_process, run_id=scheduled__2026-01-01T00:00:00+00:00, execution_date=20260101T000000, start_date=20260102T105544, end_date=20260102T105544
+[2026-01-02T10:55:44.697+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-01-02T10:55:44.736+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-02T10:55:44.757+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

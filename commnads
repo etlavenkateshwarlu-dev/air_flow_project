@@ -1,0 +1,3 @@
+
+docker build -t my-airflow-new1 .
+docker compose -f 'docker-compose.yml' up -d --build
