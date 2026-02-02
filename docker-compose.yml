@@ -5,5 +5,5 @@ services:
     volumes:
         - ./airflow:/opt/airflow
     ports:
-        - "8080:8080"
+        - "8081:8081"
     command: airflow standalone

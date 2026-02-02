@@ -1,0 +1,161 @@
+[2026-01-31T10:44:09.395+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:44:09.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependency.py for tasks to queue
+[2026-01-31T10:44:09.403+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:09.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:44:09.454+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:09.446+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependency.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependency.py", line 39, in <module>
+    sleep_task=PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 881, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PythonOperator (task_id: sleep_task). Invalid arguments were:
+**kwargs: {'provider_context': True}
+[2026-01-31T10:44:09.456+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:44:09.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependency.py took 0.179 seconds
+[2026-01-31T10:44:39.910+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:44:39.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependency.py for tasks to queue
+[2026-01-31T10:44:39.914+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:39.913+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:44:39.939+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:39.934+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependency.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependency.py", line 39, in <module>
+    sleep_task=PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 881, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PythonOperator (task_id: sleep_task). Invalid arguments were:
+**kwargs: {'provider_context': True}
+[2026-01-31T10:44:39.939+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:44:39.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependency.py took 0.083 seconds
+[2026-01-31T10:45:11.080+0000] {processor.py:161} INFO - Started process (PID=92) to work on /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:45:11.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependency.py for tasks to queue
+[2026-01-31T10:45:11.084+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:11.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:45:11.109+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:11.103+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependency.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependency.py", line 39, in <module>
+    sleep_task=PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 881, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PythonOperator (task_id: sleep_task). Invalid arguments were:
+**kwargs: {'provider_context': True}
+[2026-01-31T10:45:11.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:45:11.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependency.py took 0.095 seconds
+[2026-01-31T10:45:41.891+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:45:41.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependency.py for tasks to queue
+[2026-01-31T10:45:41.896+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:41.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:45:41.926+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:41.917+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependency.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependency.py", line 39, in <module>
+    sleep_task=PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 881, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PythonOperator (task_id: sleep_task). Invalid arguments were:
+**kwargs: {'provider_context': True}
+[2026-01-31T10:45:41.927+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:45:41.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependency.py took 0.099 seconds
+[2026-01-31T10:46:12.962+0000] {processor.py:161} INFO - Started process (PID=112) to work on /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:46:12.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependency.py for tasks to queue
+[2026-01-31T10:46:12.969+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:12.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:46:12.987+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:12.983+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependency.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependency.py", line 39, in <module>
+    sleep_task=PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 881, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PythonOperator (task_id: sleep_task). Invalid arguments were:
+**kwargs: {'provider_context': True}
+[2026-01-31T10:46:12.987+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:46:13.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependency.py took 0.076 seconds
+[2026-01-31T10:46:43.141+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:46:43.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependency.py for tasks to queue
+[2026-01-31T10:46:43.146+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:43.145+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:46:43.177+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:43.170+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependency.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependency.py", line 39, in <module>
+    sleep_task=PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 881, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PythonOperator (task_id: sleep_task). Invalid arguments were:
+**kwargs: {'provider_context': True}
+[2026-01-31T10:46:43.178+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:46:43.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependency.py took 0.108 seconds
+[2026-01-31T10:47:13.628+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:47:13.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependency.py for tasks to queue
+[2026-01-31T10:47:13.632+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:47:13.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:47:13.652+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:47:13.648+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependency.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependency.py", line 39, in <module>
+    sleep_task=PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 881, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to PythonOperator (task_id: sleep_task). Invalid arguments were:
+**kwargs: {'provider_context': True}
+[2026-01-31T10:47:13.653+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependency.py
+[2026-01-31T10:47:13.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependency.py took 0.078 seconds

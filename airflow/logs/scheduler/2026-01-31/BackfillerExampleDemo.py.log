@@ -1,0 +1,49 @@
+[2026-01-31T10:44:01.172+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:44:01.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/BackfillerExampleDemo.py for tasks to queue
+[2026-01-31T10:44:01.178+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:01.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:44:01.205+0000] {processor.py:840} INFO - DAG(s) 'BackFileExampleDemo' retrieved from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:44:01.228+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:01.228+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-31T10:44:01.268+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:01.267+0000] {dag.py:3954} INFO - Setting next_dagrun for BackFileExampleDemo to 2026-01-30 00:00:00+00:00, run_after=2026-01-31 00:00:00+00:00
+[2026-01-31T10:44:01.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/BackfillerExampleDemo.py took 0.213 seconds
+[2026-01-31T10:44:31.558+0000] {processor.py:161} INFO - Started process (PID=80) to work on /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:44:31.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/BackfillerExampleDemo.py for tasks to queue
+[2026-01-31T10:44:31.565+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:31.565+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:44:31.591+0000] {processor.py:840} INFO - DAG(s) 'BackFileExampleDemo' retrieved from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:44:31.726+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:31.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-31T10:44:31.756+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:31.756+0000] {dag.py:3954} INFO - Setting next_dagrun for BackFileExampleDemo to 2026-01-31 00:00:00+00:00, run_after=2026-02-01 00:00:00+00:00
+[2026-01-31T10:44:31.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/BackfillerExampleDemo.py took 0.306 seconds
+[2026-01-31T10:45:02.114+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:45:02.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/BackfillerExampleDemo.py for tasks to queue
+[2026-01-31T10:45:02.118+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:02.118+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:45:02.140+0000] {processor.py:840} INFO - DAG(s) 'BackFileExampleDemo' retrieved from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:45:02.179+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:02.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-31T10:45:02.212+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:02.212+0000] {dag.py:3954} INFO - Setting next_dagrun for BackFileExampleDemo to 2026-01-31 00:00:00+00:00, run_after=2026-02-01 00:00:00+00:00
+[2026-01-31T10:45:02.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/BackfillerExampleDemo.py took 0.203 seconds
+[2026-01-31T10:45:32.927+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:45:32.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/BackfillerExampleDemo.py for tasks to queue
+[2026-01-31T10:45:32.932+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:32.931+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:45:32.952+0000] {processor.py:840} INFO - DAG(s) 'BackFileExampleDemo' retrieved from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:45:32.984+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:32.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-31T10:45:33.013+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:33.013+0000] {dag.py:3954} INFO - Setting next_dagrun for BackFileExampleDemo to 2026-01-31 00:00:00+00:00, run_after=2026-02-01 00:00:00+00:00
+[2026-01-31T10:45:33.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/BackfillerExampleDemo.py took 0.162 seconds
+[2026-01-31T10:46:03.260+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:46:03.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/BackfillerExampleDemo.py for tasks to queue
+[2026-01-31T10:46:03.266+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:03.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:46:03.299+0000] {processor.py:840} INFO - DAG(s) 'BackFileExampleDemo' retrieved from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:46:03.345+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:03.344+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-31T10:46:03.374+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:03.374+0000] {dag.py:3954} INFO - Setting next_dagrun for BackFileExampleDemo to 2026-01-31 00:00:00+00:00, run_after=2026-02-01 00:00:00+00:00
+[2026-01-31T10:46:03.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/BackfillerExampleDemo.py took 0.179 seconds
+[2026-01-31T10:46:33.851+0000] {processor.py:161} INFO - Started process (PID=120) to work on /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:46:33.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/BackfillerExampleDemo.py for tasks to queue
+[2026-01-31T10:46:33.857+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:33.856+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:46:33.906+0000] {processor.py:840} INFO - DAG(s) 'BackFileExampleDemo' retrieved from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:46:33.976+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:33.975+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-31T10:46:34.040+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:34.040+0000] {dag.py:3954} INFO - Setting next_dagrun for BackFileExampleDemo to 2026-01-31 00:00:00+00:00, run_after=2026-02-01 00:00:00+00:00
+[2026-01-31T10:46:34.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/BackfillerExampleDemo.py took 0.341 seconds
+[2026-01-31T10:47:04.416+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:47:04.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/BackfillerExampleDemo.py for tasks to queue
+[2026-01-31T10:47:04.419+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:47:04.419+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:47:04.443+0000] {processor.py:840} INFO - DAG(s) 'BackFileExampleDemo' retrieved from /opt/airflow/dags/BackfillerExampleDemo.py
+[2026-01-31T10:47:04.489+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:47:04.488+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-31T10:47:04.527+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:47:04.526+0000] {dag.py:3954} INFO - Setting next_dagrun for BackFileExampleDemo to 2026-01-31 00:00:00+00:00, run_after=2026-02-01 00:00:00+00:00
+[2026-01-31T10:47:04.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/BackfillerExampleDemo.py took 0.211 seconds

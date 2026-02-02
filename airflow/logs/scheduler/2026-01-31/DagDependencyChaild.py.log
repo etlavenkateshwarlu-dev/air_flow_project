@@ -1,0 +1,98 @@
+[2026-01-31T10:44:02.964+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:44:02.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependencyChaild.py for tasks to queue
+[2026-01-31T10:44:02.970+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:02.969+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:44:03.005+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:02.999+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependencyChaild.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependencyChaild.py", line 7, in <module>
+    from airflow.providers.standard.sensors.external_task import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-31T10:44:03.009+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:44:03.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependencyChaild.py took 0.130 seconds
+[2026-01-31T10:44:33.823+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:44:33.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependencyChaild.py for tasks to queue
+[2026-01-31T10:44:33.826+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:33.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:44:33.844+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:44:33.840+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependencyChaild.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependencyChaild.py", line 7, in <module>
+    from airflow.providers.standard.sensors.external_task import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-31T10:44:33.846+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:44:33.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependencyChaild.py took 0.086 seconds
+[2026-01-31T10:45:04.385+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:45:04.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependencyChaild.py for tasks to queue
+[2026-01-31T10:45:04.388+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:04.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:45:04.406+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:04.403+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependencyChaild.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependencyChaild.py", line 7, in <module>
+    from airflow.providers.standard.sensors.external_task import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-31T10:45:04.408+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:45:04.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependencyChaild.py took 0.077 seconds
+[2026-01-31T10:45:34.911+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:45:34.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependencyChaild.py for tasks to queue
+[2026-01-31T10:45:34.925+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:34.924+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:45:34.945+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:45:34.940+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependencyChaild.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependencyChaild.py", line 7, in <module>
+    from airflow.providers.standard.sensors.external_task import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-31T10:45:34.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:45:34.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependencyChaild.py took 0.098 seconds
+[2026-01-31T10:46:05.310+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:46:05.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependencyChaild.py for tasks to queue
+[2026-01-31T10:46:05.315+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:05.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:46:05.331+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:05.328+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependencyChaild.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependencyChaild.py", line 7, in <module>
+    from airflow.providers.standard.sensors.external_task import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-31T10:46:05.332+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:46:05.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependencyChaild.py took 0.075 seconds
+[2026-01-31T10:46:36.888+0000] {processor.py:161} INFO - Started process (PID=121) to work on /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:46:36.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependencyChaild.py for tasks to queue
+[2026-01-31T10:46:36.893+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:36.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:46:36.927+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:46:36.921+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependencyChaild.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependencyChaild.py", line 7, in <module>
+    from airflow.providers.standard.sensors.external_task import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-31T10:46:36.930+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:46:36.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependencyChaild.py took 0.117 seconds
+[2026-01-31T10:47:07.152+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:47:07.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DagDependencyChaild.py for tasks to queue
+[2026-01-31T10:47:07.157+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:47:07.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:47:07.181+0000] {logging_mixin.py:188} INFO - [2026-01-31T10:47:07.176+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/DagDependencyChaild.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DagDependencyChaild.py", line 7, in <module>
+    from airflow.providers.standard.sensors.external_task import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-31T10:47:07.182+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/DagDependencyChaild.py
+[2026-01-31T10:47:07.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DagDependencyChaild.py took 0.089 seconds

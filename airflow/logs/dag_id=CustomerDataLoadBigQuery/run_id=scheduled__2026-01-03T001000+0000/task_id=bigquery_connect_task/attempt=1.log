@@ -1,0 +1,44 @@
+[2026-01-03T12:55:22.476+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-03T12:55:22.539+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CustomerDataLoadBigQuery.bigquery_connect_task scheduled__2026-01-03T00:10:00+00:00 [queued]>
+[2026-01-03T12:55:22.557+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CustomerDataLoadBigQuery.bigquery_connect_task scheduled__2026-01-03T00:10:00+00:00 [queued]>
+[2026-01-03T12:55:22.560+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-03T12:55:22.649+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): bigquery_connect_task> on 2026-01-03 00:10:00+00:00
+[2026-01-03T12:55:22.661+0000] {standard_task_runner.py:63} INFO - Started process 2314 to run task
+[2026-01-03T12:55:22.670+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'CustomerDataLoadBigQuery', 'bigquery_connect_task', 'scheduled__2026-01-03T00:10:00+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/CustomerDataLoad_BigQuery.py', '--cfg-path', '/tmp/tmp_jp6jjsu']
+[2026-01-03T12:55:22.677+0000] {standard_task_runner.py:91} INFO - Job 23: Subtask bigquery_connect_task
+[2026-01-03T12:55:22.892+0000] {task_command.py:426} INFO - Running <TaskInstance: CustomerDataLoadBigQuery.bigquery_connect_task scheduled__2026-01-03T00:10:00+00:00 [running]> on host 2606720bf4f4
+[2026-01-03T12:55:23.151+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='CustomerDataLoadBigQuery' AIRFLOW_CTX_TASK_ID='bigquery_connect_task' AIRFLOW_CTX_EXECUTION_DATE='2026-01-03T00:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-03T00:10:00+00:00'
+[2026-01-03T12:55:23.154+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-03T12:55:23.177+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-03T12:55:23.184+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-03T12:55:23.190+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-03T12:55:23.191+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-03T12:55:23.192+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-03T12:55:23.193+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/CustomerDataLoad_BigQuery.py", line 13, in getBigQueryConnection
+    client = bigquery.Client(PROJECT_ID)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/cloud/bigquery/client.py", line 241, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/cloud/client/__init__.py", line 321, in __init__
+    Client.__init__(
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/cloud/client/__init__.py", line 178, in __init__
+    credentials, _ = google.auth.default(scopes=scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-03T12:55:23.225+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=CustomerDataLoadBigQuery, task_id=bigquery_connect_task, run_id=scheduled__2026-01-03T00:10:00+00:00, execution_date=20260103T001000, start_date=20260103T125522, end_date=20260103T125523
+[2026-01-03T12:55:23.292+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 23 for task bigquery_connect_task (Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.; 2314)
+[2026-01-03T12:55:23.327+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-01-03T12:55:23.369+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-03T12:55:23.416+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

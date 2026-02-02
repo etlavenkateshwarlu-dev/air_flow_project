@@ -1,0 +1,1 @@
+[2026-01-03T12:55:33.046+0000] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: CustomerDataLoadBigQuery.bigquery_connect_task scheduled__2026-01-03T00:11:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

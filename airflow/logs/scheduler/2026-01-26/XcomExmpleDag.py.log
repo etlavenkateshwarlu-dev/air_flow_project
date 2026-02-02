@@ -1,0 +1,1173 @@
+[2026-01-26T14:39:01.261+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:39:01.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:39:01.265+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:39:01.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:39:01.286+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:39:01.285+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:39:01.288+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:39:01.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.111 seconds
+[2026-01-26T14:39:31.729+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:39:31.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:39:31.734+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:39:31.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:39:31.760+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:39:31.759+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:39:31.761+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:39:31.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.101 seconds
+[2026-01-26T14:40:01.019+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:40:01.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:40:01.025+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:01.024+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:40:01.047+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:01.045+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:40:01.048+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:40:01.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.103 seconds
+[2026-01-26T14:40:31.273+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:40:31.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:40:31.277+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:31.276+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:40:31.296+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:31.295+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:40:31.297+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:40:31.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.076 seconds
+[2026-01-26T14:41:02.226+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:41:02.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:41:02.229+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:02.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:41:02.244+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:02.243+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:41:02.245+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:41:02.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.062 seconds
+[2026-01-26T14:41:33.165+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:41:33.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:41:33.169+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:33.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:41:33.189+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:33.188+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:41:33.190+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:41:33.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.067 seconds
+[2026-01-26T14:42:04.021+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:42:04.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:42:04.025+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:04.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:42:04.044+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:04.043+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:42:04.045+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:42:04.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.083 seconds
+[2026-01-26T14:42:34.995+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:42:34.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:42:34.999+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:34.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:42:35.020+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:35.019+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:42:35.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:42:35.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.085 seconds
+[2026-01-26T14:43:06.055+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:43:06.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:43:06.059+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:06.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:43:06.083+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:06.082+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:43:06.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:43:06.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.083 seconds
+[2026-01-26T14:43:37.017+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:43:37.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:43:37.020+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:37.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:43:37.037+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:37.036+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:43:37.038+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:43:37.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.088 seconds
+[2026-01-26T14:44:08.097+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:44:08.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:44:08.101+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:08.101+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:44:08.124+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:08.123+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:44:08.125+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:44:08.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.080 seconds
+[2026-01-26T14:44:38.943+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:44:38.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:44:38.947+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:38.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:44:38.967+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:38.966+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:44:38.967+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:44:39.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.072 seconds
+[2026-01-26T14:45:09.631+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:45:09.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:45:09.635+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:09.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:45:09.655+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:09.654+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:45:09.656+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:45:09.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.087 seconds
+[2026-01-26T14:45:39.912+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:45:39.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:45:39.916+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:39.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:45:39.937+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:39.936+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:45:39.938+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:45:39.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.083 seconds
+[2026-01-26T14:46:10.567+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:46:10.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:46:10.572+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:10.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:46:10.599+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:10.598+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:46:10.600+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:46:10.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.108 seconds
+[2026-01-26T14:46:41.303+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:46:41.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:46:41.306+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:41.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:46:41.324+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:41.324+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:46:41.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:46:41.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.071 seconds
+[2026-01-26T14:47:12.032+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:47:12.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:47:12.036+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:12.036+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:47:12.057+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:12.056+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:47:12.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:47:12.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.088 seconds
+[2026-01-26T14:47:42.880+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:47:42.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:47:42.885+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:42.884+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:47:42.911+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:42.910+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:47:42.912+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:47:42.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.106 seconds
+[2026-01-26T14:48:14.867+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:48:14.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:48:14.881+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:14.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:48:14.918+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:14.917+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:48:14.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:48:14.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.153 seconds
+[2026-01-26T14:48:46.119+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:48:46.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:48:46.123+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:46.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:48:46.145+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:46.145+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:48:46.146+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:48:46.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.085 seconds
+[2026-01-26T14:49:16.635+0000] {processor.py:161} INFO - Started process (PID=245) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:49:16.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:49:16.642+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:16.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:49:16.665+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:16.664+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:49:16.666+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:49:16.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.091 seconds
+[2026-01-26T14:49:47.293+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:49:47.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:49:47.298+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:47.297+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:49:47.320+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:47.319+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:49:47.321+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:49:47.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.088 seconds
+[2026-01-26T14:50:18.219+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:50:18.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:50:18.224+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:18.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:50:18.248+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:18.246+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:50:18.249+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:50:18.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.091 seconds
+[2026-01-26T14:50:49.139+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:50:49.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:50:49.143+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:49.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:50:49.163+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:49.162+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:50:49.165+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:50:49.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.077 seconds
+[2026-01-26T14:51:19.880+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:51:19.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:51:19.884+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:19.884+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:51:19.907+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:19.906+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:51:19.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:51:19.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.086 seconds
+[2026-01-26T14:51:52.254+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:51:52.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:51:52.264+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:52.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:51:52.304+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:52.301+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:51:52.307+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:51:52.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.147 seconds
+[2026-01-26T14:52:23.564+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:52:23.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:52:23.569+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:23.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:52:23.587+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:23.586+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:52:23.587+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:52:23.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.087 seconds
+[2026-01-26T14:52:54.474+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:52:54.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:52:54.480+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:54.479+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:52:54.504+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:54.502+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:52:54.505+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:52:54.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.098 seconds
+[2026-01-26T14:53:24.929+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:53:24.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:53:24.936+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:53:24.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:53:24.972+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:53:24.971+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:53:24.973+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:53:25.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.144 seconds
+[2026-01-26T14:53:56.148+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:53:56.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:53:56.152+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:53:56.151+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:53:56.175+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:53:56.174+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:53:56.175+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:53:56.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.085 seconds
+[2026-01-26T14:54:27.069+0000] {processor.py:161} INFO - Started process (PID=345) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:54:27.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:54:27.074+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:27.074+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:54:27.097+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:27.095+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:54:27.098+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:54:27.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.099 seconds
+[2026-01-26T14:54:57.614+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:54:57.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:54:57.619+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:57.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:54:57.639+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:57.638+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:54:57.640+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:54:57.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.076 seconds
+[2026-01-26T14:55:28.521+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:55:28.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:55:28.526+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:28.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:55:28.545+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:28.544+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:55:28.546+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:55:28.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.080 seconds
+[2026-01-26T14:55:59.100+0000] {processor.py:161} INFO - Started process (PID=375) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:55:59.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:55:59.113+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:59.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:55:59.268+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:59.267+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:55:59.271+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:55:59.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.250 seconds
+[2026-01-26T14:56:30.416+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:56:30.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:56:30.422+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:56:30.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:56:30.448+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:56:30.447+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:56:30.449+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:56:30.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.103 seconds
+[2026-01-26T14:57:01.501+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:57:01.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:57:01.507+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:01.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:57:01.536+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:01.535+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:57:01.537+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:57:01.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.120 seconds
+[2026-01-26T14:57:39.462+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:57:39.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:57:39.468+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:39.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:57:39.495+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:39.494+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:57:39.497+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:57:39.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.106 seconds
+[2026-01-26T14:58:10.907+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:58:10.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:58:10.912+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:10.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:58:10.941+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:10.939+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:58:10.942+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:58:11.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.117 seconds
+[2026-01-26T14:58:41.435+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:58:41.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:58:41.441+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:41.441+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:58:41.471+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:41.469+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:58:41.472+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:58:41.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.109 seconds
+[2026-01-26T14:59:12.847+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:59:12.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:59:12.853+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:12.852+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:59:12.877+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:12.876+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:59:12.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:59:12.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.096 seconds
+[2026-01-26T14:59:43.312+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:59:43.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T14:59:43.318+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:43.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:59:43.352+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:43.350+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T14:59:43.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T14:59:43.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.125 seconds
+[2026-01-26T15:00:14.555+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:00:14.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:00:14.566+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:14.565+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:00:14.597+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:14.596+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:00:14.598+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:00:14.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.132 seconds
+[2026-01-26T15:00:45.533+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:00:45.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:00:45.538+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:45.538+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:00:45.561+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:45.560+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:00:45.562+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:00:45.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.083 seconds
+[2026-01-26T15:01:16.431+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:01:16.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:01:16.435+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:16.435+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:01:16.453+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:16.452+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:01:16.454+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:01:16.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.075 seconds
+[2026-01-26T15:01:46.875+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:01:46.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:01:46.880+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:46.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:01:46.900+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:46.899+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:01:46.901+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:01:46.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.082 seconds
+[2026-01-26T15:02:17.380+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:02:17.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:02:17.384+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:02:17.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:02:17.403+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:02:17.402+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:02:17.404+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:02:17.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.076 seconds
+[2026-01-26T15:06:46.390+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:06:46.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:06:46.401+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:06:46.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:06:46.428+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:06:46.427+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:06:46.430+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:06:46.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.130 seconds
+[2026-01-26T15:07:17.620+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:07:17.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:07:17.624+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:07:17.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:07:17.648+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:07:17.647+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:07:17.649+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:07:17.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.094 seconds
+[2026-01-26T15:09:24.190+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:09:24.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:09:24.194+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:24.194+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:09:24.218+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:24.218+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:09:24.219+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:09:24.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.091 seconds
+[2026-01-26T15:09:55.308+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:09:55.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:09:55.312+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:55.312+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:09:55.331+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:55.331+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:09:55.332+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:09:55.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.081 seconds
+[2026-01-26T15:10:25.526+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:10:25.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:10:25.531+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:10:25.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:10:25.559+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:10:25.558+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:10:25.560+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:10:25.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.106 seconds
+[2026-01-26T15:12:45.258+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:12:45.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:12:45.266+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:12:45.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:12:45.300+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:12:45.298+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:12:45.301+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:12:45.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.139 seconds
+[2026-01-26T15:13:32.829+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:13:32.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:13:32.843+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:13:32.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:13:32.895+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:13:32.893+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:13:32.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:13:33.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.220 seconds
+[2026-01-26T15:14:03.991+0000] {processor.py:161} INFO - Started process (PID=86) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:14:03.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:14:03.998+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:03.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:14:04.054+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:04.052+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:14:04.062+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:14:04.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.195 seconds
+[2026-01-26T15:14:35.884+0000] {processor.py:161} INFO - Started process (PID=96) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:14:35.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:14:35.892+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:35.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:14:35.926+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:35.924+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:14:35.927+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:14:36.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.439 seconds
+[2026-01-26T15:15:06.517+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:15:06.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:15:06.522+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:06.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:15:06.549+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:06.547+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:15:06.550+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:15:06.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.093 seconds
+[2026-01-26T15:15:37.482+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:15:37.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:15:37.485+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:37.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:15:37.501+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:37.501+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:15:37.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:15:37.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.065 seconds
+[2026-01-26T15:16:08.689+0000] {processor.py:161} INFO - Started process (PID=126) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:16:08.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:16:08.696+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:08.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:16:08.725+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:08.723+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:16:08.726+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:16:08.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.112 seconds
+[2026-01-26T15:16:40.021+0000] {processor.py:161} INFO - Started process (PID=136) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:16:40.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:16:40.029+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:40.029+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:16:40.060+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:40.059+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:16:40.060+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:16:40.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.124 seconds
+[2026-01-26T15:17:11.280+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:17:11.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:17:11.293+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:11.292+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:17:11.380+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:11.379+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:17:11.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:17:11.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.230 seconds
+[2026-01-26T15:17:44.189+0000] {processor.py:161} INFO - Started process (PID=156) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:17:44.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:17:44.221+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:44.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:17:44.541+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:44.539+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:17:44.542+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:17:44.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.753 seconds
+[2026-01-26T15:19:02.253+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:19:02.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:19:02.290+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:02.290+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:19:02.617+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:02.615+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:19:02.634+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:19:03.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 1.121 seconds
+[2026-01-26T15:19:34.570+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:19:34.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:19:34.615+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:34.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:19:34.709+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:34.700+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:19:34.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:19:37.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 2.789 seconds
+[2026-01-26T15:21:04.204+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:21:04.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:21:04.217+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:04.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:21:04.288+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:04.284+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:21:04.350+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:21:05.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 1.117 seconds
+[2026-01-26T15:21:35.514+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:21:35.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:21:35.519+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:35.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:21:35.545+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:35.544+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:21:35.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:21:35.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.104 seconds
+[2026-01-26T15:22:07.585+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:22:07.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:22:07.591+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:07.590+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:22:07.619+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:07.618+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:22:07.621+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:22:07.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.199 seconds
+[2026-01-26T15:22:38.546+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:22:38.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:22:38.553+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:38.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:22:38.582+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:38.581+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:22:38.583+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:22:38.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.132 seconds
+[2026-01-26T15:23:11.051+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:23:11.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:23:11.054+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:23:11.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:23:11.077+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:23:11.076+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:23:11.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:23:11.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.129 seconds
+[2026-01-26T15:23:46.062+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:23:46.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/XcomExmpleDag.py for tasks to queue
+[2026-01-26T15:23:46.071+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:23:46.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:23:46.117+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:23:46.114+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/XcomExmpleDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/XcomExmpleDag.py", line 11
+    context['it'].xcom_pull('file_size_count':100)
+                                             ^
+SyntaxError: invalid syntax
+[2026-01-26T15:23:46.119+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/XcomExmpleDag.py
+[2026-01-26T15:23:46.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/XcomExmpleDag.py took 0.224 seconds

@@ -7,7 +7,7 @@ Steps:
 Define a Dockerfile to customize the Airflow image
 
 Build a Docker image using the Dockerfile
-
+d
 Configure services using Docker Compose
 
 docker-compose.yaml file

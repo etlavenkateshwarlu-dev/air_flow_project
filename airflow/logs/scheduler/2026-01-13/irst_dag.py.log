@@ -1,0 +1,14 @@
+[2026-01-13T02:50:36.873+0000] {processor.py:161} INFO - Started process (PID=4369) to work on /opt/airflow/dags/irst_dag.py
+[2026-01-13T02:50:36.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/irst_dag.py for tasks to queue
+[2026-01-13T02:50:36.887+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:50:36.886+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/irst_dag.py
+[2026-01-13T02:50:37.024+0000] {processor.py:840} INFO - DAG(s) 'simple_3_task_dag' retrieved from /opt/airflow/dags/irst_dag.py
+[2026-01-13T02:50:37.376+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:50:37.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-13T02:50:37.717+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:50:37.711+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_3_task_dag to 2026-01-12 00:00:00+00:00, run_after=2026-01-13 00:00:00+00:00
+[2026-01-13T02:50:38.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/irst_dag.py took 1.448 seconds
+[2026-01-13T02:51:10.384+0000] {processor.py:161} INFO - Started process (PID=4378) to work on /opt/airflow/dags/irst_dag.py
+[2026-01-13T02:51:10.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/irst_dag.py for tasks to queue
+[2026-01-13T02:51:10.397+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:51:10.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/irst_dag.py
+[2026-01-13T02:51:10.461+0000] {processor.py:840} INFO - DAG(s) 'simple_3_task_dag' retrieved from /opt/airflow/dags/irst_dag.py
+[2026-01-13T02:51:10.570+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:51:10.569+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-13T02:51:10.681+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:51:10.680+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_3_task_dag to 2026-01-12 00:00:00+00:00, run_after=2026-01-13 00:00:00+00:00
+[2026-01-13T02:51:10.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/irst_dag.py took 0.503 seconds

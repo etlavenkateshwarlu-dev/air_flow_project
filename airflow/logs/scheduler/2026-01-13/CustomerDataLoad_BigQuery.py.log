@@ -1,0 +1,14 @@
+[2026-01-13T02:50:54.336+0000] {processor.py:161} INFO - Started process (PID=4376) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-13T02:50:54.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-13T02:50:54.343+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:50:54.342+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-13T02:50:54.440+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-13T02:50:55.789+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:50:55.789+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-13T02:50:55.877+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:50:55.877+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-13 00:05:00+00:00, run_after=2026-01-13 01:05:00+00:00
+[2026-01-13T02:50:56.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 1.856 seconds
+[2026-01-13T02:51:28.454+0000] {processor.py:161} INFO - Started process (PID=4385) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-13T02:51:28.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-13T02:51:28.468+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:51:28.463+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-13T02:51:28.609+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-13T02:51:28.799+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:51:28.798+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-13T02:51:28.924+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:51:28.924+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-13 00:05:00+00:00, run_after=2026-01-13 01:05:00+00:00
+[2026-01-13T02:51:29.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.742 seconds

@@ -1,0 +1,702 @@
+[2026-01-24T02:48:15.018+0000] {processor.py:161} INFO - Started process (PID=5567) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:48:15.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:48:15.055+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.049+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:48:15.268+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.267+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:48:15.285+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.284+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:48:15.288+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.288+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:48:15.506+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.505+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:48:15.530+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.529+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:48:15.544+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.543+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:48:15.552+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.551+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:48:15.599+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:48:15.559+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:48:15.608+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:48:15.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.932 seconds
+[2026-01-24T02:49:11.526+0000] {processor.py:161} INFO - Started process (PID=5587) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:49:11.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:49:11.535+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:49:11.635+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.634+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:49:11.637+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.636+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:49:11.639+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.639+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:49:11.651+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.650+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:49:11.659+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.658+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:49:11.666+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.666+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:49:11.669+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.668+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:49:11.694+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:11.671+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:49:11.696+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:49:11.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.302 seconds
+[2026-01-24T02:49:43.452+0000] {processor.py:161} INFO - Started process (PID=5597) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:49:43.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:49:43.475+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:49:43.584+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.583+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:49:43.586+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.585+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:49:43.588+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.588+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:49:43.598+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.597+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:49:43.605+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.604+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:49:43.612+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.611+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:49:43.613+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.613+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:49:43.632+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:49:43.614+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:49:43.634+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:49:43.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.306 seconds
+[2026-01-24T02:50:14.784+0000] {processor.py:161} INFO - Started process (PID=5607) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:50:14.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:50:14.793+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:50:14.893+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.892+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:50:14.894+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.894+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:50:14.896+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.896+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:50:14.904+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.904+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:50:14.910+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.910+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:50:14.917+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.916+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:50:14.919+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.918+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:50:14.936+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:14.920+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:50:14.938+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:50:15.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.279 seconds
+[2026-01-24T02:50:47.110+0000] {processor.py:161} INFO - Started process (PID=5617) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:50:47.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:50:47.122+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:50:47.241+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.241+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:50:47.244+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.243+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:50:47.246+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.246+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:50:47.258+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.257+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:50:47.266+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.265+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:50:47.276+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.275+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:50:47.278+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.277+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:50:47.298+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:50:47.280+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:50:47.300+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:50:47.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.342 seconds
+[2026-01-24T02:51:18.545+0000] {processor.py:161} INFO - Started process (PID=5627) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:51:18.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:51:18.558+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:51:18.673+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.672+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:51:18.675+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.675+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:51:18.679+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.678+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:51:18.689+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.688+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:51:18.698+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.697+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:51:18.705+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.705+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:51:18.707+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.707+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:51:18.726+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:18.709+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:51:18.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:51:18.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.316 seconds
+[2026-01-24T02:51:50.389+0000] {processor.py:161} INFO - Started process (PID=5637) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:51:50.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:51:50.400+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:51:50.533+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.532+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:51:50.535+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.535+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:51:50.538+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.538+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:51:50.550+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.549+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:51:50.559+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.558+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:51:50.568+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.567+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:51:50.571+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.570+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:51:50.596+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:51:50.572+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:51:50.598+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:51:50.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.361 seconds
+[2026-01-24T02:52:21.453+0000] {processor.py:161} INFO - Started process (PID=5647) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:52:21.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:52:21.462+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:52:21.555+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.554+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:52:21.557+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.557+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:52:21.559+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.559+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:52:21.569+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.568+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:52:21.575+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.575+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:52:21.582+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.582+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:52:21.584+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.583+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:52:21.601+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:21.584+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:52:21.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:52:21.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.289 seconds
+[2026-01-24T02:52:52.613+0000] {processor.py:161} INFO - Started process (PID=5657) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:52:52.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:52:52.623+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:52:52.711+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.710+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:52:52.713+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.713+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:52:52.715+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.715+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:52:52.724+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.723+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:52:52.730+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.729+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:52:52.735+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.734+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:52:52.736+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.736+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:52:52.757+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:52:52.737+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:52:52.759+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:52:52.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.267 seconds
+[2026-01-24T02:53:24.462+0000] {processor.py:161} INFO - Started process (PID=5667) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:53:24.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:53:24.472+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:53:24.623+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.622+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:53:24.625+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.624+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:53:24.627+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.627+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:53:24.637+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.636+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:53:24.644+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.643+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:53:24.650+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.650+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:53:24.652+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.652+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:53:24.675+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:24.654+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:53:24.677+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:53:24.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.357 seconds
+[2026-01-24T02:53:56.029+0000] {processor.py:161} INFO - Started process (PID=5677) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:53:56.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:53:56.038+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:53:56.169+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.168+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:53:56.171+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.171+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:53:56.173+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.173+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:53:56.183+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.182+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:53:56.189+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.188+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:53:56.195+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.195+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:53:56.197+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.197+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:53:56.216+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:53:56.198+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:53:56.217+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:53:56.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.323 seconds
+[2026-01-24T02:54:27.999+0000] {processor.py:161} INFO - Started process (PID=5687) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:54:28.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:54:28.054+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:54:28.355+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.353+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:54:28.357+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.357+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:54:28.360+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.360+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:54:28.385+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.384+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:54:28.408+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.407+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:54:28.421+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.420+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:54:28.425+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.424+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:54:28.457+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:54:28.427+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:54:28.461+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:54:28.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.771 seconds
+[2026-01-24T02:55:00.014+0000] {processor.py:161} INFO - Started process (PID=5697) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:55:00.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:55:00.023+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:55:00.158+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.157+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:55:00.160+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.160+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:55:00.163+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.163+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:55:00.174+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.173+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:55:00.179+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.179+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:55:00.185+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.185+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:55:00.187+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.187+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:55:00.210+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:00.188+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:55:00.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:55:00.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.327 seconds
+[2026-01-24T02:55:31.357+0000] {processor.py:161} INFO - Started process (PID=5707) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:55:31.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:55:31.361+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:55:31.401+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.401+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:55:31.402+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.402+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:55:31.404+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.403+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:55:31.408+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.407+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:55:31.411+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.410+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:55:31.414+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.414+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:55:31.414+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.414+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:55:31.420+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:55:31.415+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:55:31.421+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:55:31.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.110 seconds
+[2026-01-24T02:56:02.363+0000] {processor.py:161} INFO - Started process (PID=5717) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:56:02.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:56:02.367+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:56:02.415+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.414+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:56:02.416+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.416+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:56:02.417+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.417+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:56:02.422+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.421+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:56:02.425+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.424+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:56:02.427+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.427+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:56:02.428+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.428+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:56:02.434+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:02.428+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:56:02.435+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:56:02.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.135 seconds
+[2026-01-24T02:56:33.229+0000] {processor.py:161} INFO - Started process (PID=5727) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:56:33.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:56:33.233+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.232+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:56:33.264+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.264+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:56:33.265+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.265+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:56:33.266+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.265+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:56:33.269+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.268+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:56:33.271+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.271+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:56:33.273+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.273+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:56:33.274+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.274+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:56:33.278+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:56:33.274+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:56:33.279+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:56:33.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.089 seconds
+[2026-01-24T02:57:03.965+0000] {processor.py:161} INFO - Started process (PID=5737) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:57:03.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:57:03.971+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:03.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:57:04.026+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:04.025+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:57:04.027+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:04.027+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:57:04.029+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:04.029+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:57:04.037+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:04.037+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:57:04.042+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:04.041+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:57:04.046+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:04.045+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:57:04.047+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:04.047+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:57:04.061+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:04.048+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:57:04.063+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:57:04.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.170 seconds
+[2026-01-24T02:57:34.652+0000] {processor.py:161} INFO - Started process (PID=5747) to work on /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:57:34.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GCSToBigQueryOperatorDAG.py for tasks to queue
+[2026-01-24T02:57:34.656+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.655+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:57:34.690+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.689+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-24T02:57:34.691+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.690+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-01-24T02:57:34.691+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.691+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-24T02:57:34.695+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.694+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:57:34.697+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.697+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:57:34.701+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.700+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-01-24T02:57:34.701+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.701+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-01-24T02:57:34.706+0000] {logging_mixin.py:188} INFO - [2026-01-24T02:57:34.702+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 24, in <module>
+    employee_schema = read_schema_from_gcs(
+  File "/opt/airflow/dags/GCSToBigQueryOperatorDAG.py", line 18, in read_schema_from_gcs
+    schema_content = hook.download(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 337, in download
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 169, in get_conn
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, project=self.project_id
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 308, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 285, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-01-24T02:57:34.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GCSToBigQueryOperatorDAG.py
+[2026-01-24T02:57:34.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GCSToBigQueryOperatorDAG.py took 0.104 seconds

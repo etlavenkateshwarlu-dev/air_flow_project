@@ -1,0 +1,28 @@
+[2026-01-13T02:50:49.384+0000] {processor.py:161} INFO - Started process (PID=4374) to work on /opt/airflow/dags/TesDatra.py
+[2026-01-13T02:50:49.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/TesDatra.py for tasks to queue
+[2026-01-13T02:50:49.404+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:50:49.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/TesDatra.py
+[2026-01-13T02:50:49.489+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:50:49.471+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/TesDatra.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/TesDatra.py", line 3, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-13T02:50:49.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/TesDatra.py
+[2026-01-13T02:50:49.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/TesDatra.py took 0.374 seconds
+[2026-01-13T02:51:24.730+0000] {processor.py:161} INFO - Started process (PID=4383) to work on /opt/airflow/dags/TesDatra.py
+[2026-01-13T02:51:24.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/TesDatra.py for tasks to queue
+[2026-01-13T02:51:24.736+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:51:24.735+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/TesDatra.py
+[2026-01-13T02:51:24.780+0000] {logging_mixin.py:188} INFO - [2026-01-13T02:51:24.769+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/TesDatra.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/TesDatra.py", line 3, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-01-13T02:51:24.784+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/TesDatra.py
+[2026-01-13T02:51:24.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/TesDatra.py took 0.196 seconds

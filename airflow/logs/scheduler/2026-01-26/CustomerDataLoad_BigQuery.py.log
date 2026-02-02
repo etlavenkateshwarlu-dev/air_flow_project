@@ -1,0 +1,476 @@
+[2026-01-26T14:39:04.918+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:39:04.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:39:04.925+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:39:04.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:39:04.963+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:39:04.984+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:39:04.984+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:39:05.020+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:39:05.019+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:39:05.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.188 seconds
+[2026-01-26T14:40:04.320+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:40:04.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:40:04.326+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:04.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:40:04.373+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:40:04.394+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:04.393+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:40:04.433+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:04.433+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:40:04.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.222 seconds
+[2026-01-26T14:40:36.132+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:40:36.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:40:36.139+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:36.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:40:36.181+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:40:36.323+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:36.323+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:40:36.353+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:40:36.353+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:40:36.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.308 seconds
+[2026-01-26T14:41:06.662+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:41:06.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:41:06.666+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:06.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:41:06.692+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:41:06.725+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:06.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:41:06.752+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:06.751+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:41:06.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.167 seconds
+[2026-01-26T14:41:37.046+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:41:37.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:41:37.051+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:37.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:41:37.082+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:41:37.116+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:37.116+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:41:37.145+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:41:37.145+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:41:37.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.174 seconds
+[2026-01-26T14:42:07.665+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:42:07.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:42:07.669+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:07.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:42:07.693+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:42:07.725+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:07.724+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:42:07.756+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:07.756+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:42:07.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.189 seconds
+[2026-01-26T14:42:38.199+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:42:38.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:42:38.203+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:38.203+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:42:38.232+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:42:38.265+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:38.265+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:42:38.300+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:42:38.299+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:42:38.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.181 seconds
+[2026-01-26T14:43:09.878+0000] {processor.py:161} INFO - Started process (PID=128) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:43:09.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:43:09.882+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:09.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:43:09.919+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:43:09.965+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:09.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:43:10.010+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:10.010+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:43:10.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.218 seconds
+[2026-01-26T14:43:40.825+0000] {processor.py:161} INFO - Started process (PID=138) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:43:40.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:43:40.830+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:40.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:43:40.863+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:43:40.898+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:40.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:43:40.926+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:43:40.925+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:43:41.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.185 seconds
+[2026-01-26T14:44:12.022+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:44:12.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:44:12.028+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:12.027+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:44:12.056+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:44:12.101+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:12.101+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:44:12.138+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:12.138+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:44:12.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.226 seconds
+[2026-01-26T14:44:42.668+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:44:42.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:44:42.672+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:42.672+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:44:42.697+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:44:42.732+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:42.732+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:44:42.765+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:44:42.765+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:44:42.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.175 seconds
+[2026-01-26T14:45:13.288+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:45:13.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:45:13.292+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:13.292+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:45:13.323+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:45:13.362+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:13.362+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:45:13.399+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:13.399+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:45:13.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.201 seconds
+[2026-01-26T14:45:43.850+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:45:43.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:45:43.855+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:43.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:45:43.879+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:45:43.909+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:43.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:45:43.944+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:45:43.944+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:45:44.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.215 seconds
+[2026-01-26T14:46:15.670+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:46:15.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:46:15.675+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:15.674+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:46:15.712+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:46:15.755+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:15.755+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:46:15.788+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:15.787+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:46:15.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.205 seconds
+[2026-01-26T14:46:46.388+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:46:46.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:46:46.394+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:46.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:46:46.430+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:46:46.474+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:46.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:46:46.509+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:46:46.509+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:46:46.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.213 seconds
+[2026-01-26T14:47:17.016+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:47:17.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:47:17.020+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:17.019+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:47:17.048+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:47:17.088+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:17.087+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:47:17.116+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:17.116+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:47:17.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.197 seconds
+[2026-01-26T14:47:47.865+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:47:47.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:47:47.868+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:47.868+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:47:47.891+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:47:47.927+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:47.926+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:47:47.960+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:47:47.960+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:47:48.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.178 seconds
+[2026-01-26T14:48:19.917+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:48:19.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:48:19.931+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:19.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:48:20.019+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:48:20.112+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:20.112+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:48:20.202+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:20.202+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:48:20.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.477 seconds
+[2026-01-26T14:48:51.525+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:48:51.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:48:51.531+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:51.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:48:51.557+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:48:51.590+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:51.589+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:48:51.620+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:48:51.620+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:48:51.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.175 seconds
+[2026-01-26T14:49:22.609+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:49:22.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:49:22.614+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:22.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:49:22.644+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:49:22.681+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:22.681+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:49:22.713+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:22.712+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:49:22.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.185 seconds
+[2026-01-26T14:49:53.072+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:49:53.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:49:53.076+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:53.075+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:49:53.105+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:49:53.138+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:53.138+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:49:53.167+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:49:53.167+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:49:53.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.180 seconds
+[2026-01-26T14:50:23.393+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:50:23.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:50:23.398+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:23.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:50:23.437+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:50:23.478+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:23.477+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:50:23.513+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:23.513+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:50:23.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.207 seconds
+[2026-01-26T14:50:54.227+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:50:54.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:50:54.232+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:54.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:50:54.271+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:50:54.321+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:54.321+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:50:54.373+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:50:54.373+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:50:54.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.264 seconds
+[2026-01-26T14:51:25.836+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:51:25.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:51:25.841+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:25.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:51:25.868+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:51:25.912+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:25.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:51:25.957+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:25.957+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:51:26.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.229 seconds
+[2026-01-26T14:51:56.514+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:51:56.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:51:56.520+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:56.520+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:51:56.565+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:51:56.607+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:56.606+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:51:56.646+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:51:56.645+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:51:56.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.417 seconds
+[2026-01-26T14:52:27.438+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:52:27.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:52:27.442+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:27.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:52:27.467+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:52:27.512+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:27.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:52:27.564+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:27.564+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:52:27.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.280 seconds
+[2026-01-26T14:52:58.470+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:52:58.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:52:58.475+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:58.474+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:52:58.514+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:52:58.585+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:58.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:52:58.648+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:52:58.648+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:52:58.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.328 seconds
+[2026-01-26T14:53:29.007+0000] {processor.py:161} INFO - Started process (PID=328) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:53:29.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:53:29.012+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:53:29.011+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:53:29.051+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:53:29.101+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:53:29.101+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:53:29.141+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:53:29.140+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:53:29.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.223 seconds
+[2026-01-26T14:54:00.145+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:54:00.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:54:00.148+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:00.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:54:00.175+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:54:00.207+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:00.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:54:00.234+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:00.234+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:54:00.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.173 seconds
+[2026-01-26T14:54:31.340+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:54:31.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:54:31.346+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:31.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:54:31.389+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:54:31.446+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:31.446+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:54:31.496+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:54:31.495+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:54:31.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.275 seconds
+[2026-01-26T14:55:01.876+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:55:01.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:55:01.881+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:01.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:55:01.908+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:55:01.947+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:01.947+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:55:01.985+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:01.985+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:55:02.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.210 seconds
+[2026-01-26T14:55:32.830+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:55:32.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:55:32.834+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:32.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:55:32.861+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:55:32.896+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:32.896+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:55:32.931+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:55:32.930+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:55:33.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.185 seconds
+[2026-01-26T14:56:03.579+0000] {processor.py:161} INFO - Started process (PID=378) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:56:03.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:56:03.586+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:56:03.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:56:03.621+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:56:03.670+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:56:03.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:56:03.716+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:56:03.716+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:56:03.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.259 seconds
+[2026-01-26T14:56:34.529+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:56:34.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:56:34.534+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:56:34.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:56:34.561+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:56:34.596+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:56:34.595+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:56:34.628+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:56:34.628+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:56:34.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.184 seconds
+[2026-01-26T14:57:05.817+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:57:05.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:57:05.821+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:05.821+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:57:05.854+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:57:05.900+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:05.899+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:57:05.933+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:05.933+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:57:06.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.202 seconds
+[2026-01-26T14:57:43.441+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:57:43.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:57:43.445+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:43.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:57:43.510+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:57:43.540+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:43.539+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:57:43.592+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:57:43.592+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:57:43.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.253 seconds
+[2026-01-26T14:58:14.575+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:58:14.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:58:14.582+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:14.581+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:58:14.615+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:58:14.829+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:14.828+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:58:14.870+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:14.870+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:58:14.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.406 seconds
+[2026-01-26T14:58:45.161+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:58:45.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:58:45.165+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:45.164+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:58:45.188+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:58:45.220+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:45.220+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:58:45.258+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:58:45.258+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:58:45.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.184 seconds
+[2026-01-26T14:59:16.768+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:59:16.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:59:16.771+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:16.771+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:59:16.798+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:59:16.836+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:16.836+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:59:16.872+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:16.872+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:59:16.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.207 seconds
+[2026-01-26T14:59:47.248+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:59:47.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T14:59:47.253+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:47.253+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:59:47.288+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T14:59:47.323+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:47.322+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T14:59:47.357+0000] {logging_mixin.py:188} INFO - [2026-01-26T14:59:47.357+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T14:59:47.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.196 seconds
+[2026-01-26T15:00:18.234+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:00:18.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:00:18.237+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:18.237+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:00:18.271+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:00:18.305+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:18.304+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:00:18.332+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:18.332+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:00:18.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.184 seconds
+[2026-01-26T15:00:49.465+0000] {processor.py:161} INFO - Started process (PID=128) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:00:49.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:00:49.469+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:49.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:00:49.492+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:00:49.523+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:49.522+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:00:49.551+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:00:49.551+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:00:49.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.157 seconds
+[2026-01-26T15:01:20.433+0000] {processor.py:161} INFO - Started process (PID=138) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:01:20.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:01:20.439+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:20.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:01:20.518+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:01:20.564+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:20.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:01:20.630+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:20.630+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:01:21.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.589 seconds
+[2026-01-26T15:01:51.512+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:01:51.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:01:51.516+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:51.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:01:51.544+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:01:51.577+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:51.577+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:01:51.606+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:01:51.606+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:01:51.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.171 seconds
+[2026-01-26T15:02:22.191+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:02:22.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:02:22.195+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:02:22.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:02:22.222+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:02:22.250+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:02:22.250+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:02:22.276+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:02:22.276+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:02:22.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.157 seconds
+[2026-01-26T15:06:49.874+0000] {processor.py:161} INFO - Started process (PID=70) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:06:49.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:06:49.882+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:06:49.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:06:49.925+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:06:49.950+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:06:49.949+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:06:49.993+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:06:49.992+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:06:50.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.225 seconds
+[2026-01-26T15:07:21.644+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:07:21.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:07:21.650+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:07:21.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:07:21.689+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:07:21.833+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:07:21.833+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:07:21.871+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:07:21.871+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:07:21.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.339 seconds
+[2026-01-26T15:09:28.113+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:09:28.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:09:28.123+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:28.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:09:28.169+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:09:28.198+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:28.198+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:09:28.265+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:28.265+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:09:28.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.264 seconds
+[2026-01-26T15:09:58.962+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:09:58.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:09:58.968+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:58.967+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:09:59.002+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:09:59.153+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:59.153+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:09:59.187+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:09:59.187+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:09:59.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.338 seconds
+[2026-01-26T15:10:29.738+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:10:29.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:10:29.743+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:10:29.743+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:10:29.778+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:10:29.831+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:10:29.831+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:10:29.884+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:10:29.882+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:10:29.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.246 seconds
+[2026-01-26T15:12:48.691+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:12:48.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:12:48.697+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:12:48.697+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:12:48.726+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:12:48.748+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:12:48.747+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:12:48.780+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:12:48.780+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:12:48.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.171 seconds
+[2026-01-26T15:13:36.350+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:13:36.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:13:36.357+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:13:36.357+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:13:36.407+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:13:36.435+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:13:36.434+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:13:36.477+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:13:36.477+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:13:36.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.241 seconds
+[2026-01-26T15:14:07.623+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:14:07.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:14:07.628+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:07.627+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:14:07.659+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:14:07.807+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:07.806+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:14:07.892+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:07.891+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:14:07.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.355 seconds
+[2026-01-26T15:14:39.865+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:14:39.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:14:39.869+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:39.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:14:39.917+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:14:39.994+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:39.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:14:40.080+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:14:40.080+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:14:40.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.320 seconds
+[2026-01-26T15:15:10.950+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:15:10.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:15:10.956+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:10.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:15:10.986+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:15:11.023+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:11.022+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:15:11.052+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:11.052+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:15:11.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.193 seconds
+[2026-01-26T15:15:41.616+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:15:41.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:15:41.621+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:41.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:15:41.648+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:15:41.685+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:41.685+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:15:41.714+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:15:41.713+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:15:41.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.174 seconds
+[2026-01-26T15:16:12.454+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:16:12.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:16:12.458+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:12.458+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:16:12.489+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:16:12.530+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:12.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:16:12.558+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:12.558+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:16:12.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.205 seconds
+[2026-01-26T15:16:42.952+0000] {processor.py:161} INFO - Started process (PID=139) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:16:42.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:16:42.957+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:42.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:16:42.985+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:16:43.021+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:43.020+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:16:43.049+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:16:43.048+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:16:43.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.181 seconds
+[2026-01-26T15:17:15.753+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:17:15.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:17:15.760+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:15.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:17:15.815+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:17:15.857+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:15.856+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:17:15.887+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:15.887+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:17:15.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.228 seconds
+[2026-01-26T15:17:53.363+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:17:53.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:17:53.391+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:53.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:17:53.620+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:17:53.857+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:53.856+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:17:54.122+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:17:54.121+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:17:54.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 1.485 seconds
+[2026-01-26T15:19:18.026+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:19:18.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:19:18.046+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:18.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:19:18.262+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:19:18.387+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:18.387+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:19:18.513+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:18.512+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:19:18.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.964 seconds
+[2026-01-26T15:19:52.641+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:19:52.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:19:52.661+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:52.660+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:19:52.875+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:19:53.170+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:53.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:19:53.338+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:19:53.334+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:19:55.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 2.446 seconds
+[2026-01-26T15:21:25.941+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:21:25.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:21:25.952+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:25.952+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:21:25.993+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:21:26.040+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:26.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:21:26.085+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:26.085+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:21:26.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.266 seconds
+[2026-01-26T15:21:56.562+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:21:56.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:21:56.571+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:56.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:21:56.638+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:21:56.703+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:56.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:21:56.771+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:21:56.770+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:21:56.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.347 seconds
+[2026-01-26T15:22:27.729+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:22:27.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:22:27.733+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:27.732+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:22:27.764+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:22:27.806+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:27.805+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:22:27.838+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:27.838+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:22:27.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.201 seconds
+[2026-01-26T15:22:58.364+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:22:58.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:22:58.373+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:58.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:22:58.423+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:22:58.491+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:58.490+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:22:58.546+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:22:58.546+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:22:58.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.290 seconds
+[2026-01-26T15:23:29.393+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:23:29.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:23:29.416+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:23:29.415+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:23:29.594+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:23:29.852+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:23:29.851+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:23:29.968+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:23:29.967+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:23:30.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.956 seconds
+[2026-01-26T15:24:00.444+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:24:00.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CustomerDataLoad_BigQuery.py for tasks to queue
+[2026-01-26T15:24:00.448+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:24:00.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:24:00.474+0000] {processor.py:840} INFO - DAG(s) 'CustomerDataLoadBigQuery' retrieved from /opt/airflow/dags/CustomerDataLoad_BigQuery.py
+[2026-01-26T15:24:00.510+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:24:00.510+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-26T15:24:00.541+0000] {logging_mixin.py:188} INFO - [2026-01-26T15:24:00.540+0000] {dag.py:3954} INFO - Setting next_dagrun for CustomerDataLoadBigQuery to 2026-01-26 00:05:00+00:00, run_after=2026-01-26 01:05:00+00:00
+[2026-01-26T15:24:00.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CustomerDataLoad_BigQuery.py took 0.180 seconds
